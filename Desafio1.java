@@ -1,6 +1,6 @@
 package OpenBootcamp;
 
-public class PrimeraParte {
+public class Desafio1 {
     public static void main(String[] args) {
         sumas(1, 2, 3);
 
