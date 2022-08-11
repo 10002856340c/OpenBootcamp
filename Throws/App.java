@@ -1,10 +1,5 @@
 package Throws;
 
-//CARACTERISTICAS A TENER EN CUENTA :
-
-//*La sentencia throw se utiliza para lanzar explícitamente una excepción. En primer lugar se debe obtener un descriptor de un objeto Throwable, bien mediante un parámetro en una cláusula catch o, se puede crear utilizando el operador new. */
-
-//este ejemplo se trata de hacer excepciones al dividir entre 0
 public class App {
     public static void main(String[] args) {
         // inicializamos una variable
