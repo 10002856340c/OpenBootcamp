@@ -38,6 +38,7 @@ public class TiposdeDatos {
         // grandes arrays de números de coma flotante.
         // EJEMPLO:
         float decimal1 = 4.9f; // 32 bists
+
         // -----------------------------------------------------------------------------------------------//
         // *) Double --> El tipo de dato double es una comna flotante IEEE 754 de 64
         // bits de doble precisión. Para valores decimales, este tipo de datos
