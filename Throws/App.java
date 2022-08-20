@@ -9,12 +9,13 @@ public class App {
         try {
             // reescribimos la variable en el try y almacenamos en la variable la instancia
             // del modulo division con su metodo dividir
-            resultado = Division.Dividir(10, 0);
+            resultado = Division.Dividir(10, 5);
 
             // si llega haber una exception , que nos muestre cual es la exception
         } catch (Exception e) {
 
             e.printStackTrace(System.out);// sirve para mostrar explicitamente el error que se puede llegar a presentar
+            System.out.println("La divion por 0 no existe ");
         }
         // al final que nos imprima el resultado
         System.out.println("Resultado " + resultado);

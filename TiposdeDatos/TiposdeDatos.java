@@ -1,4 +1,4 @@
-package OpenBootcamp;
+package TiposdeDatos;
 
 public class TiposdeDatos {
 

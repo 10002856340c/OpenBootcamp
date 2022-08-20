@@ -10,10 +10,13 @@ public class Division {
                                                                                     // exception
         // creamos una condicion por si llega haber un error comun
         if (numero2 == 0) {
-            // creamos una excepcion que en este caso va a ser personalizada
-            // es decir vamos a instanciar el metodo excpesiones ("y le pasamos el mensaje
-            // ")
+            /*
+             * creamos una excepcion con la funcion o sintaxis throw now ArithmeticException
+             * ya que en la funcion se le ha dicho que va a haber una excepcion de tipo
+             * ArithmeticException
+             */
             throw new ArithmeticException();
+
         }
         // si no se llega a presenta ningun error que divida normalmente los numeros
         return numero1 / numero2;
