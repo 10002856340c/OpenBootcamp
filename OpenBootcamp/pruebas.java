@@ -1,4 +1,4 @@
-package Parqueadero;
+package OpenBootcamp;
 
 import java.util.Scanner;
 
