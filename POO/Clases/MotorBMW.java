@@ -1,21 +1,17 @@
 package POO.Clases;
 
-public class Mercedez {
-    // Atributos
+public class MotorBMW {
+
     protected String Fabricante;
     protected String Modelo;
     protected double cc;
     protected int year;
-
     protected double velocidad;
 
-    // Constructores
-
-    public Mercedez() {
-
+    public MotorBMW() {
     }
 
-    public Mercedez(String fabricante, String modelo, double cc, int year, double velocidad) {
+    public MotorBMW(String fabricante, String modelo, double cc, int year, double velocidad) {
         Fabricante = fabricante;
         Modelo = modelo;
         this.cc = cc;
@@ -23,14 +19,10 @@ public class Mercedez {
         this.velocidad = velocidad;
     }
 
-    // Metodos que queramos hacer cada vez que se llamen
-
-    public void AcelerarMercedez(double kilometros) {
-        this.velocidad += kilometros;
+    public void AcelerarBMW(int usuario) {
+        this.velocidad += usuario;
 
     }
-
-    // Getter and setters
 
     public String getFabricante() {
         return Fabricante;
