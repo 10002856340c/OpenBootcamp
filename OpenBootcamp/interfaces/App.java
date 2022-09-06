@@ -13,5 +13,8 @@ public class App {
         empleadocrud.guardar(empleado3);
         List<Empleado> empleados = empleadocrud.ver();
         System.out.println(empleados);
+
+
+        
     }
 }

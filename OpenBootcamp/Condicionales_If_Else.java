@@ -1,6 +1,7 @@
 package OpenBootcamp;
 
 public class Condicionales_If_Else {
+
     // CARACTERISTICAS A TENER EN CUENTA
 
     // IF --> La estructura condicional más simple en Java es el if, se evalúa una
@@ -20,7 +21,7 @@ public class Condicionales_If_Else {
     // primira condicion principal if se ejecute el else por alternancia
     // ------------------------------------------------------------------------------------------------//
 
-    // OPERADORES LOGICOS, RELACION,COMPARACION,BOOLEANOS
+    // OPERADORES LOGICOS, RELACION,COMPARACION,BOOLEANOs
 
     // Los operadores lógicos se usan para combinar dos valores Booleanos y devolver
     // un resultado verdadero, falso o nulo. Los operadores lógicos también se
